@@ -1,10 +1,50 @@
 <!DOCTYPE html>
 <html>
-	<head>Home Page - Vishnu Iyer's Website</head>
+	<head>
+		<meta charset="utf-8"> 
+		<!-- incorporate bootstrap capability -->
+		<meta charset="utf-8"> 	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css"/>
+	</head>
 	<body>
-		<div name = "navigation bar">
+	<!-- navigation bar -->
+		<nav class = "nav navbar-inverse navbar-fixed-bottom">
+			<div class = "container-fluid">
+			</div>
+			<div>
+				<ul class = "nav navbar-nav">
+					<li style = "opacity: 1"><a href = "#"><b>Home</b></a></li>
+					<li style = "opacity: 0.4"><a href = "about.html">About</a></li>
+					<li style = "opacity: 0.4"><a href = "projects.html">Projects</a></li>
+					<li style = "opacity: 0.4"><a href = "playground.html">Playground</a></li>
+					<li style = "opacity: 0.4"><a href = "contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Home Page Content -->
+		<div class = "container-fluid">
+			<!-- Jumbotron for Home Page -->
+			<div class = "jumbotron" style="text-align: center">
+				<h1>Welcome</h1>
+				<p>My name is Vishnu Iyer and this is my website</p>
+			</div>
+			<!-- Home Page writing -->
+			<div class = "row">
+				<div class = "col-sm-1" name = "homePageLeft1"></div>
+				<div class = "col-sm-5" name = "homePageLeft2" style = "text-align:justify; text-justify: inter-word">
+					Hello. Welcome to my Page. Here, I have documented information regarding myself and my ideas for the future. To read more about me, go to the About page. To view the projects I am working on currently, go to the Projects page. To view my
+				</div>
+				<div class = "col-sm-5" name = "homePageRight2" style = "text-align:justify; text-justify:inter-word">
+				 experiments using my website, visit the Playground page. Finally, to contact me, visit the Contact page.
+				</div>
+				<div class = "col-sm-1" name = "homePageRight1"></div>
+			</div>
+			<br><br>
+			<!-- Image -->
+			<div style = "margin-left:auto; margin-right:auto; width:20%">
+				<img src = "img.jpg" class = "img-rounded">
+			</div>
 		</div>
-		<!-- add buttons -->
-		<!-- add introduction paragraph -->
 	</body>
 </html>
